@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	//dar "github.com/livingstone23/golangroad/01variables"
-	tec "github.com/livingstone23/golangroad/02teclado"
+	//tec "github.com/livingstone23/golangroad/02teclado"
+	//ite "github.com/livingstone23/golangroad/03iteracciones"
 )
 
 func main() {
@@ -25,6 +26,12 @@ func main() {
 
 	//Leccion 02 - Teclado
 	//tec.IngresoNumeros()
-	tec.TablaMultiplicar()
+	//tec.TablaMultiplicar()
+
+	//Leccion 03 - Iteracciones
+	//ite.Iterar()
+	//ite.Iterar2()
+	//ite.Iterar3()
+	//ite.Iterar4()
 
 }
