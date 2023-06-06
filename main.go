@@ -20,3 +20,4 @@ func main() {
 	sistema := dar.IdentificarSistema()
 	fmt.Println("El sistema operativo es: ", sistema)
 
+}
