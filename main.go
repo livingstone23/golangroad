@@ -5,6 +5,9 @@ import (
 	//dar "github.com/livingstone23/golangroad/01variables"
 	//tec "github.com/livingstone23/golangroad/02teclado"
 	//ite "github.com/livingstone23/golangroad/03iteracciones"
+	//arc "github.com/livingstone23/golangroad/04files"
+	//fun "github.com/livingstone23/golangroad/05funciones"
+	arr "github.com/livingstone23/golangroad/06arreglos_slices"
 )
 
 func main() {
@@ -33,5 +36,22 @@ func main() {
 	//ite.Iterar2()
 	//ite.Iterar3()
 	//ite.Iterar4()
+	//fmt.Println(ite.TablaDeMultiplicar())
+
+	//Leccion 04 - Archivos
+	//arc.GrabarTabla()
+	//arc.SumaTabla()
+	//arc.LeoArchivo()
+	//arc.LeoArchivo2()
+
+	//Leccion 05 - Funciones
+	//fun.Calculos()
+	//fun.LlamarClosure()
+	//fun.Exponencia(2)
+
+	//Lecciones 06
+	//arr.MuestroArreglos()
+	//arr.MuestroSlice()
+	arr.Capacidad()
 
 }
