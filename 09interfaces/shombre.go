@@ -1,4 +1,4 @@
-package modelos
+package interfaces
 
 type Hombre struct {
 	edad       int

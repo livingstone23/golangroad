@@ -9,7 +9,8 @@ import (
 	//fun "github.com/livingstone23/golangroad/05funciones"
 	//arr "github.com/livingstone23/golangroad/06arreglos_slices"
 	//mapas "github.com/livingstone23/golangroad/07mapas"
-	oob "github.com/livingstone23/golangroad/08orientacion_objetos"
+	//oob "github.com/livingstone23/golangroad/08orientacion_objetos"
+	intf "github.com/livingstone23/golangroad/09interfaces"
 )
 
 func main() {
@@ -61,6 +62,13 @@ func main() {
 	//mapas.MostrarMapas2()
 
 	//Leccion 08 - Orientacion Objetos
-	oob.AltaUsuario()
+	//oob.AltaUsuario()
+
+	//Leccion 09 - Interfaces
+	Livingstone := new(intf.Hombre)
+	intf.HumanoRespirando(Livingstone)
+
+	Mjose := new(intf.Mujer)
+	intf.HumanoRespirando(Mjose)
 
 }
