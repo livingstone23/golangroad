@@ -7,7 +7,9 @@ import (
 	//ite "github.com/livingstone23/golangroad/03iteracciones"
 	//arc "github.com/livingstone23/golangroad/04files"
 	//fun "github.com/livingstone23/golangroad/05funciones"
-	arr "github.com/livingstone23/golangroad/06arreglos_slices"
+	//arr "github.com/livingstone23/golangroad/06arreglos_slices"
+	//mapas "github.com/livingstone23/golangroad/07mapas"
+	oob "github.com/livingstone23/golangroad/08orientacion_objetos"
 )
 
 func main() {
@@ -49,9 +51,16 @@ func main() {
 	//fun.LlamarClosure()
 	//fun.Exponencia(2)
 
-	//Lecciones 06
+	//Lecciones 06 - Arreglos
 	//arr.MuestroArreglos()
 	//arr.MuestroSlice()
-	arr.Capacidad()
+	//arr.Capacidad()
+
+	//Leccion 07 - Mapas
+	//mapas.MostrarMapas()
+	//mapas.MostrarMapas2()
+
+	//Leccion 08 - Orientacion Objetos
+	oob.AltaUsuario()
 
 }
