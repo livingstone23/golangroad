@@ -10,7 +10,8 @@ import (
 	//arr "github.com/livingstone23/golangroad/06arreglos_slices"
 	//mapas "github.com/livingstone23/golangroad/07mapas"
 	//oob "github.com/livingstone23/golangroad/08orientacion_objetos"
-	intf "github.com/livingstone23/golangroad/09interfaces"
+	//intf "github.com/livingstone23/golangroad/09interfaces"
+	depa "github.com/livingstone23/golangroad/10defer_panic_recover"
 )
 
 func main() {
@@ -65,10 +66,15 @@ func main() {
 	//oob.AltaUsuario()
 
 	//Leccion 09 - Interfaces
-	Livingstone := new(intf.Hombre)
-	intf.HumanoRespirando(Livingstone)
+	/*
+		Livingstone := new(intf.Hombre)
+		intf.HumanoRespirando(Livingstone)
+		Mjose := new(intf.Mujer)
+		intf.HumanoRespirando(Mjose)
+	*/
 
-	Mjose := new(intf.Mujer)
-	intf.HumanoRespirando(Mjose)
+	//leccion 10 - Defer y Panic
+	//depa.DemosDefer()
+	depa.EjemploPanic()
 
 }
