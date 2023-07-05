@@ -11,7 +11,11 @@ import (
 	//mapas "github.com/livingstone23/golangroad/07mapas"
 	//oob "github.com/livingstone23/golangroad/08orientacion_objetos"
 	//intf "github.com/livingstone23/golangroad/09interfaces"
-	depa "github.com/livingstone23/golangroad/10defer_panic_recover"
+	//depa "github.com/livingstone23/golangroad/10defer_panic_recover"
+	//goru "github.com/livingstone23/golangroad/11GoRoutines"
+	//channe "github.com/livingstone23/golangroad/12Channels"
+	//Websv "github.com/livingstone23/golangroad/13ServidorWeb"
+	midd "github.com/livingstone23/golangroad/14Middlewares"
 )
 
 func main() {
@@ -75,6 +79,34 @@ func main() {
 
 	//leccion 10 - Defer y Panic
 	//depa.DemosDefer()
-	depa.EjemploPanic()
+	//depa.EjemploPanic()
+
+	//fmt.Println(depa.FechaMySQL())
+	//fmt.Println(depa.ConectarDB())
+
+	//Leccion 11-GoRutines
+	//goru.MiNombreLento("Livingstone Cano")
+	//Volvemos la rutina asincrona
+	//go goru.MiNombreLento("Livingstone Cano")
+	//fmt.Println("Estoy aqui")
+	//var x string
+	//fmt.Scanln(&x)
+
+	//Leccion 12 - channels
+	//canal1 := make(chan bool)
+	/*
+		go channe.MiNombreLentoWithChannels("Livingstone Cano", canal1)
+		defer func() {
+			<-canal1
+		}()
+
+		fmt.Println("Estoy aqui")
+	*/
+
+	//Leccion 13 - WebServer
+	//Websv.MiWebServer()
+
+	//Leccion 14 - Middleware
+	midd.MiMiddleware()
 
 }
